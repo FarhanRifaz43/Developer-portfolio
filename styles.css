@@ -4,6 +4,9 @@
 }
 .btn-primary{
    background-color: #FD6E0A;
+   border: 0;
+   color: white;
+   padding: 12px 30px;
 }
 .txt-primary{
     color: #FD6E0A;
@@ -11,15 +14,18 @@
 /* nav styles */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 nav ul{
     display: flex;
     list-style: none;
+    align-items: center;
 }
 nav ul li a{
     text-decoration: none;
-    padding: 15px;
-font-size: 20px;
+    padding: 20px;
+font-size: 15px;
 font-style: normal;
 line-height: normal;
 color: #474747;
