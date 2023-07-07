@@ -7,6 +7,7 @@
    border: 0;
    color: white;
    padding: 12px 30px;
+   border-radius: 5px;
 }
 .txt-primary{
     color: #FD6E0A;
@@ -16,6 +17,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav ul{
     display: flex;
@@ -35,4 +37,34 @@ nav h3{
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+}
+header{
+    background-color: #FFF8F3;
+    height: 100vh;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+}
+.profile-pic{
+    width: 484px;
+height: 576px;
+}
+.banner-txt{
+    align-items: center;
+}
+.banner-intro{
+    font-size: 40px;
+    font-weight: 400;
+    color: #474747;
+}
+.banner-title{
+    font-size: 60px;
+font-weight: 700;
+}
+.banner-desc{
+    font-size: 13px;
+    font-weight: 100;
+    color: #757575;
 }
